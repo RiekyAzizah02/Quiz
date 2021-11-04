@@ -1,0 +1,97 @@
+@media screen and (max-width: 750px) {
+  html, body {
+    width: 100%;
+  }
+
+  .uncentered {
+    margin-left: auto;
+  }
+
+  .norm {
+    display: none;
+  }
+
+  .mobi {
+    display: block;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+    padding: 0;
+  }
+
+/*----- NAV ------------------------------------------------------------------*/
+.homelogo {
+  width: 150px;
+}
+
+#home {
+  padding: 60px 10px;
+}
+
+#homeWelcome {
+  font-size: 34pt;
+}
+
+.mySlides {
+  display: none;
+  width: 100% !important;
+}
+
+.blurb {
+  font-size: 18pt;
+}
+
+.blurb h1 {
+  font-size: 34pt;
+}
+
+nav ul li {
+  margin: 4px;
+}
+
+nav ul li a {
+  font-size: 16pt;
+  margin: 0;
+  padding: 5px;
+}
+
+/*----- HOME PAGE ------------------------------------------------------------*/
+  #slideShow {
+    border-radius: 3px;
+    margin-top: 12px;
+  }
+
+  .blurb {
+    display: block;
+  }
+
+/*----- CHARACTERS PAGE ------------------------------------------------------*/
+  #character_name {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  #attacks_box {
+    order: 2;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #attributes_box {
+    order: 1;
+    max-width: 100%;
+    width: 100%;
+  }
+
+/*----- VS PAGE --------------------------------------------------------------*/
+  .vs_pic {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
